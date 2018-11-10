@@ -1,4 +1,4 @@
-FROM yandex/clickhouse-server:18.1.0
+FROM yandex/clickhouse-server:18.14.13
 
 USER root
 
