@@ -8,3 +8,5 @@ RUN \
     unixodbc \
   && rm -rf /var/lib/apt/lists/* /var/cache/debconf \
   && apt-get clean
+
+COPY odbcinst.ini /etc/odbcinst.ini
